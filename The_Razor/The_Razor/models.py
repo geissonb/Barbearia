@@ -237,6 +237,7 @@ class FuncoesProfissional(models.Model):
 #
 # - Profissional
 # - Produto utilizado
+# - Quantidade Cedida
 
 
 class ProdutosTrabalho(models.Model):
@@ -249,10 +250,18 @@ class ProdutosTrabalho(models.Model):
         'Produtos',
         on_delete=models.CASCADE
     )
+
+    quantidade_cedida = models.IntegerField(
+        default=0,
+        null=False,
+        blank=False
+    )
+
 # VENDA PARA O PROFISSIONAL
 #
 # - Profissional
 # - Produto
+# - Quantidade Vendida
 
 
 class VendaProfissional(models.Model):
@@ -266,6 +275,11 @@ class VendaProfissional(models.Model):
         on_delete=models.CASCADE
     )
 
+    quantidade_vendida = models.IntegerField(
+        default=0,
+        null=False,
+        blank=False
+    )
 # CLIENTE
 #
 # - Dados Pessoais
@@ -319,6 +333,7 @@ class Atendimento(models.Model):
 #
 # - Cliente
 # - Produto
+# - Quantidade Vendida
 
 
 class VendasCliente(models.Model):
@@ -331,3 +346,10 @@ class VendasCliente(models.Model):
         'Produtos',
         on_delete=models.CASCADE
     )
+
+    quantidade_vendida = models.IntegerField(
+        default=0,
+        null=False,
+        blank=False
+    )
+
