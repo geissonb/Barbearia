@@ -352,4 +352,3 @@ class VendasCliente(models.Model):
         null=False,
         blank=False
     )
-
