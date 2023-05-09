@@ -21,10 +21,9 @@
 
     h2
     {
-        position: sticky;
-        font-size: 30px;
-        margin-bottom: 26px;
-        color: #ccc;
+        font-size: 60px;
+        margin-bottom: 590px;
+        color: rgb(243, 240, 240);
     }
 
     h3
@@ -42,15 +41,17 @@
         width: 100%;
         height: 40px;
         padding: 5px;
-        border: 1px solid #5f5b5b;
+        border: 1px solid #0f0f0f;
         border-radius: 3px;
         cursor: pointer;
     }
 
     form
     {
-        width: 300px;
-        padding: 20px;
+        position: absolute;
+        margin-bottom: 1px;
+        width: 290px;
+        padding: 10px;
         background-color: rgba(95, 87, 87, 0.8);
         border-radius: 5px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
