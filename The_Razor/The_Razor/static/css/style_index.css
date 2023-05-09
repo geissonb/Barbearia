@@ -21,8 +21,10 @@
 
     h2
     {
+        font-family: Comic Sans MS, Comic Sans, cursive;
+        font-style: italic;
         font-size: 60px;
-        margin-bottom: 590px;
+        margin-bottom: 580px;
         color: rgb(243, 240, 240);
     }
 
