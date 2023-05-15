@@ -1,0 +1,91 @@
+html, body, div, span, h1{
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body{
+    letter-spacing: 0px;
+}
+
+.header-classic #Top_bar{
+    position: static;
+}
+
+#Top_bar{
+    left: 0;
+    top: 61px;
+    width: 100%;
+    z-index: 30;
+}
+
+@media only screen and (min-width: 1240px) inline:2
+.section_wrapper, .container{
+    max-width: 1200px;
+}
+
+.section_wrapper, .container{
+    margin: 0 auto;
+    position: relative;
+}
+
+#Top_bar .column {
+    margin-bottom: 0;
+}
+
+.one .column{
+    width: 98%;
+}
+
+.column, .columns{
+    float: left;
+    margin: 0 1% 40px;
+}
+
+#Top_bar .top_bar_left{
+    position: relative;
+    float: left;
+}
+
+#Top_bar .logo{
+    float: left;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: large;
+    font-style: italic;
+    margin: 0 30px 0 20px;
+}
+
+.menu-right #Top_bar .menu_wrapper{
+    float:right;
+}
+
+#Top_bar .menu_wrapper{
+    z-index: 201;
+}
+
+ul{
+    list-style: none outside;
+}
+
+#Top_bar .menu > li:not(.mfn-megamenu-parent){
+    position: relative;
+}
+
+#Top_bar .menu > li {
+    margin: 0;
+    display: block;
+    float: left;
+}
+
+@media only screen and (min-width: 1240px) inline:2
+#Top_bar.is-sticky .top_bar_right{
+    top: -4px;
+    height: auto;
+}
+
+#Top_bar .top_bar_right{
+    float: right;
+    position: relative;
+    padding: 0 10px 0 20px;
+}
